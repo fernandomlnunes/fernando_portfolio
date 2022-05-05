@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body{
+	background-image: url('pg_3.jpg');
+    background-size: 100vw;
+}
+.cont_pg_2_2{
+	font-family: Arial, sans-serif;	
+	margin-top: 4vw ;
+	margin-left: 43vw;
+	font-size: 32px;
+	font-weight: bold;
+	position: absolute;
+	display: block;
+}
+.cont_pg_2_2 .txt_pg_2_2_2{
+	font-family: Arial, sans-serif;	
+	text-align: center;
+	margin-top: 2px;
+	margin-left: 1vw;
+	border-radius: 3px;
+	background-color: rgba(0, 219, 0, 0.4);
+	padding: 4px 2px 4px 2px;
+}
+.conteiner_ciculo{
+	cursor: pointer;
+	margin-top: 8VW;
+	margin-left: 3VW;
+	display: flex;
+	position: absolute;   
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.conteiner_ciculo .card{
+    position: relative;
+    width: 250px;
+    margin: 2px 1px;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.conteiner_ciculo .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 15px rgba(0,0,0,.5);
+}
+.text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background-color: #222;
+    z-index: 0;
+}
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.percent .number h2{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s;
+}
+svg{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    z-index: 0;
+}
+svg circle{
+    width: 80%;
+    height: 80%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+svg circle:nth-child(2){
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+.card:nth-child(1) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 96) / 100 );
+    stroke: #FF4500;
+}
+.card:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 91) / 100 );
+    stroke: #1E90FF;
+}
+.card:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 80) / 100 );
+    stroke: #DAA520;
+}
+.card:nth-child(4) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 25) / 100 );
+    stroke: #4169E1;
+}
+.card:nth-child(5) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 25) / 100 );
+    stroke: #8B008B;
+}
+.card:nth-child(6) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 15) / 100 );
+    stroke: #8A2BE2;
+}
+.card:nth-child(7) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 15) / 100 );
+    stroke: #00FFFF;
+}
+.card:nth-child(8) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 15) / 100 );
+    stroke: #07c500;
+}
+/*FORMATAÇÃO DOS CIRCULOS 02*/
+.conteiner_ciculo_1{
+	cursor: pointer;
+	margin-top: 27VW;
+	margin-left: 3VW;
+	display: flex;
+	position: absolute;   
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.conteiner_ciculo_1 .card1{
+    position: relative;
+    width: 250px;
+    margin: 2px 1px;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.conteiner_ciculo_1 .card1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 15px rgba(0,0,0,.5);
+}
+.percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background-color: #222;
+    z-index: 0;
+}
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.percent .number h2{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 0;
+}
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+svg circle:nth-child(2){
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+.card1:nth-child(1) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 10) / 100 );
+    stroke: #191970;
+}
+.card1:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 10) / 100 );
+    stroke: #FF0000;
+}
+.card1:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 12) / 100 );
+    stroke: #FF4500;
+}
+.card1:nth-child(4) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 70) / 100 );
+    stroke: #F0F8FF;
+}
+.card1:nth-child(5) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 85) / 100 );
+    stroke: #1E90FF;
+}
+.card1:nth-child(6) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 70) / 100 );
+    stroke: #FFA500;
+}
+.card1:nth-child(7) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 05) / 100 );
+    stroke: #C71585;
+}
+.card1:nth-child(8) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 05) / 100 );
+    stroke: #00BFFF;
+}
+@media (max-width:1400px){
+    .cont_pg_2_2{
+	margin-top: 5vw ;
+	margin-left: 43.5vw;
+    }
+    .conteiner_ciculo{
+        display: flex;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+    .conteiner_ciculo_1{
+        display: flex;
+        position: absolute;
+        margin-top: 27%;
+        margin-left: 3%;
+    }
+}
