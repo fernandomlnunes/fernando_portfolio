@@ -79,6 +79,9 @@ h3{
 	.modal_up{
 		margin-top: -0.8vw;
 	}
+	.mod_foto{
+		margin-top: -24%;
+	}
 }
 @media screen and (max-width: 1080px){
 }
