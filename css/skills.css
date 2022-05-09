@@ -250,8 +250,11 @@ svg circle:nth-child(2){
 	.foto_1{
 		margin-top: -24%;
 	}
+    .conteiner_ciculo{
+		margin-top: 8vw;
+	}
 	.conteiner_ciculo_1{
-		margin-top: 30%;
+		margin-top: 28%;
 	}
 	.conteiner_ciculo{
 		margin-top: 7vw;
