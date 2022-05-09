@@ -237,21 +237,32 @@ svg circle:nth-child(2){
     stroke-dashoffset: calc(440 - (440 * 05) / 100 );
     stroke: #00BFFF;
 }
-@media (max-width:1400px){
-    .cont_pg_2_2{
-	margin-top: 5vw ;
-	margin-left: 43.5vw;
-    }
-    .conteiner_ciculo{
-        display: flex;
-        position: absolute;
-        margin-top: 10%;
-        margin-left: 3%;
-    }
-    .conteiner_ciculo_1{
-        display: flex;
-        position: absolute;
-        margin-top: 27%;
-        margin-left: 3%;
-    }
+@media screen and (max-width: 3840px){
+}
+@media screen and (max-width: 1920px){
+}
+@media screen and (max-width: 1360px){
+}
+@media screen and (max-width: 1280px){
+	.nav{
+		left: 67vw;
+	}
+	.foto_1{
+		margin-top: -24%;
+	}
+	.conteiner_ciculo_1{
+		margin-top: 30%;
+	}
+	.conteiner_ciculo{
+		margin-top: 7vw;
+	}
+	.modal_up{
+		margin-top: -0.8vw;
+	}
+}
+@media screen and (max-width: 1080px){
+}
+@media screen and (max-width: 1024px){
+}
+@media screen and (max-width: 720px){
 }

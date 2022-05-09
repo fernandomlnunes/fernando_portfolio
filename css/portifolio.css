@@ -176,5 +176,33 @@ body{
 .close3:hover{
 	background: rgba(255, 0, 0, 0.69);
 	color: white;
+}@media screen and (max-width: 3840px){
+}
+@media screen and (max-width: 1920px){
+}
+@media screen and (max-width: 1360px){
+}
+@media screen and (max-width: 1280px){
+	.nav{
+		left: 67vw;
+	}
+	.foto_1{
+		margin-top: -24%;
+	}
+	.conteiner_ciculo_1{
+		margin-top: 30%;
+	}
+	.conteiner_ciculo{
+		margin-top: 7vw;
+	}
+	.modal_up{
+		margin-top: -0.8vw;
+	}
+}
+@media screen and (max-width: 1080px){
+}
+@media screen and (max-width: 1024px){
+}
+@media screen and (max-width: 720px){
 }
 
